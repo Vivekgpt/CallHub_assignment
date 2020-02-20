@@ -1,38 +1,132 @@
 .App {
+  /* text-align: center; */
+}
+
+.underline {
+  height: 5px;
+  width: 40px;
+  background: #F0123C;
+}
+
+.signin {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.lowerbody {
+  height: 132.62px;
+  width: 485.33px;
+  /* margin-left: 0px; */
+}
+
+.navbar {
+  width: 1296px;
+  height: 76px;
+  margin-top: 39px;
+}
+
+input {
+  /* box-shadow: black; */
+  height: 40px;
+}
+
+.searchBtn {
+  height: 40px;
+  width: 70px;
+  color: white;
+  background: #F0123C;
+  border: 1px solid #F0123C;
+  font-size: 3mm;
+}
+
+.brandimg {
+  height: 30px;
+  width: 70px;
+}
+
+.brands {
+  background: #FFFFFF;
+  width: 800px;
+  /* border: 1px solid; */
+  margin-top: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.arrow {
+  color: #F0123C;
+  font-size: large;
+}
+
+.cardtext {
+  font-size: 3mm;
+}
+
+.cardimg {
+  height: 100%;
+  width: 100%;
+}
+
+.blackbox {
+  background: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.blackBoxBtn {
+  color: #F0123C;
+  font-size: 3mm;
+  height: 35px;
+  width: 180px;
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+.bottom {
+  text-align: center;
+  background: whitesmoke;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.teamimg {
+  height: 50%;
+  /* width: 100%; */
+}
+
+.bottomText {
+  background: whitesmoke;
+}
+
+.redBox {
+  background: #F0123C;
+  text-align: center;
+  padding: 50px;
+}
+
+.redBoxBtn1 {
+  color: #F0123C;
+  border: 1px solid white;
+}
+
+.redBoxBtn2 {
+  background: #F0123C;
+  border: 1px solid white;
+}
+
+.title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.showBox {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.showBtn {
+  background: #F0123C;
+  border: 1px solid #F0123C;
+  padding: 10px;
+  color: #FFFFFF;
 }
